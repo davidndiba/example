@@ -1,0 +1,33 @@
+#head{
+    height: 100vh;
+    background-image: url("../img/photo-1683093123606-d9d574600918.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#big{
+    height: 100vh;
+    background-color: red;
+}
+.rat{
+    background-color: green;
+}
+.foot{
+    height: 100vh;
+    background-image: url("../img/photo-1685768381606-e7e9ca5d2032.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-header{
+    text-align: center;
+    color:red;
+}
+.navigation-bar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation-bar > ul > li{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    padding: 10px;;
+}
